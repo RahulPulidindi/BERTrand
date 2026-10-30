@@ -1,0 +1,8 @@
+# Probe runs (PLAN.md section 5.3): board markets, scripted undercut at round 30 or placebo, 8 episodes each, per market composition.
+conditions: board
+defector: defect,placebo
+episodes: 8
+rounds: 50
+defect_round: 30
+seed: 2
+reasoning_effort: none

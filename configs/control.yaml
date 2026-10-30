@@ -1,0 +1,8 @@
+# Positive control (PLAN.md section 4): chat markets with the probe, 5 episodes per arm. Run with Claude Haiku.
+conditions: chat
+defector: defect,placebo
+episodes: 5
+rounds: 50
+defect_round: 30
+seed: 3
+reasoning_effort: none

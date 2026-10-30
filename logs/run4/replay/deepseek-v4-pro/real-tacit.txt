@@ -1,0 +1,33 @@
+Monitor from another shell: inspect ctl task list   (inspect ctl --help)
+Running 1 tasks...
+---------------------------------------------------------                       
+replay_decisions (30 samples): openrouter/deepseek/deepseek-v4-pro              
+timeout: 300, max_connections: 6, retry_on_error: 2, max_samples: 3, source:    
+..., rounds: 10,18, interventions: baseline,final,not_final, branch: main,      
+samples_per_state: 1, dataset: (samples)                                        
+---------------------------------------------------------                       
+                                                                                
+replay_de... | Steps:   6/30  20% | Samples:   6/ 30 | final: 0.00 | openrouter:  3/ 6 | HTTP retries: 0
+replay_de... | Steps:  11/30  36% | Samples:  11/ 30 | final: 0.00 | openrouter:  3/ 6 | HTTP retries: 0
+replay_de... | Steps:  20/30  66% | Samples:  20/ 30 | final: 0.00 | openrouter:  3/ 6 | HTTP retries: 0
+replay_de... | Steps:  28/30  93% | Samples:  28/ 30 | final: 0.00 | openrouter:  2/ 6 | HTTP retries: 0
+replay_de... | Steps:  30/30 100% | Samples:  30/ 30 | final: 0.00 | openrouter:  0/ 6 | HTTP retries: 0
+
+---------------------------------------------------------                       
+replay_decisions (30 samples): openrouter/deepseek/deepseek-v4-pro              
+timeout: 300, max_connections: 6, retry_on_error: 2, max_samples: 3, source:    
+..., rounds: 10,18, interventions: baseline,final,not_final, branch: main,      
+samples_per_state: 1, dataset: (samples)                                        
+                                                                                
+total time:                          0:00:21                                    
+openrouter/deepseek/deepseek-v4-pro  31,820 tokens [I: 22,055, CW: 0, CR: 7,497,
+                                   O: 2,268, R: 0]                              
+decision_scorer                                                                 
+baseline         0.000                                                          
+final            0.000                                                          
+not_final        0.000                                                          
+all              0.000                                                          
+Log:                                                                            
+logs/run4/replay/deepseek-v4-pro/real-tacit/2026-10-30T03-41-12-00-00_replay-de…
+---------------------------------------------------------                       
+                                                                                

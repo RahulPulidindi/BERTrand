@@ -1,0 +1,29 @@
+Monitor from another shell: inspect ctl task list   (inspect ctl --help)
+Running 1 tasks...
+---------------------------------------------------------                       
+salience_market (5 samples): openrouter/openai/gpt-6-luna                       
+timeout: 300, max_connections: 6, retry_on_error: 2, max_samples: 3, arm:       
+explicit, skin: toy, markets: 5, rounds: 20, reasoning_effort: none, dataset:   
+(samples)                                                                       
+---------------------------------------------------------                       
+                                                                                
+play_sali... | Steps:   1/5  20% | Samples:   0/  5 | mean:  n/a | openrouter:  2/ 6 | HTTP retries: 0
+play_sali... | Steps:   3/5  60% | Samples:   3/  5 | mean: 0.33 | openrouter:  2/ 6 | HTTP retries: 0
+play_sali... | Steps:   4/5  80% | Samples:   3/  5 | mean: 0.33 | openrouter:  1/ 6 | HTTP retries: 0
+play_sali... | Steps:   5/5 100% | Samples:   5/  5 | mean: 0.40 | openrouter:  0/ 6 | HTTP retries: 0
+
+---------------------------------------------------------                       
+salience_market (5 samples): openrouter/openai/gpt-6-luna                       
+timeout: 300, max_connections: 6, retry_on_error: 2, max_samples: 3, arm:       
+explicit, skin: toy, markets: 5, rounds: 20, reasoning_effort: none, dataset:   
+(samples)                                                                       
+                                                                                
+total time:                   0:01:03                                           
+openrouter/openai/gpt-6-luna  94,263 tokens [I: 72,733, CW: 15,468, CR: 0, O:   
+                            6,062, R: 0]                                        
+salience_scorer                                                                 
+mean             0.400                                                          
+Log:                                                                            
+logs/run4/markets/luna/toy-explicit/2026-10-30T03-38-27-00-00_salience-market_S…
+---------------------------------------------------------                       
+                                                                                

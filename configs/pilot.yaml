@@ -1,0 +1,5 @@
+# Quick pilot: 2 episodes each of blind and board. Use with any composition.
+conditions: blind,board
+episodes: 2
+rounds: 50
+reasoning_effort: none

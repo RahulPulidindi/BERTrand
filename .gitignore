@@ -1,0 +1,28 @@
+# environment and secrets
+.venv/
+.env
+
+# build, tool and editor files
+__pycache__/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# write-up drafts are not part of the repository
+writeup/
+
+# generated tables: rebuild them from the logs with `make data`
+data/*
+!data/README.md
+
+# local-only logs: mock runs, `make smoke`, and the local model server
+logs/mock/
+logs/smoke-local/
+logs/mlx_server.log

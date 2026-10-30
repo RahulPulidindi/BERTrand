@@ -1,0 +1,6 @@
+# Main runs (PLAN.md section 6): blind and board, 10 episodes each, per market composition.
+conditions: blind,board
+episodes: 10
+rounds: 50
+seed: 1
+reasoning_effort: none

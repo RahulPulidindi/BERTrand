@@ -1,0 +1,30 @@
+Monitor from another shell: inspect ctl task list   (inspect ctl --help)
+Running 1 tasks...
+---------------------------------------------------------                       
+salience_market (5 samples): openrouter/google/gemini-4-argon                   
+timeout: 300, max_connections: 6, retry_on_error: 2, max_samples: 3, arm:       
+explicit, skin: real, markets: 5, rounds: 20, reasoning_effort: minimal,        
+dataset: (samples)                                                              
+---------------------------------------------------------                       
+                                                                                
+play_sali... | Steps:   1/5  20% | Samples:   0/  5 | mean:  n/a | openrouter:  2/ 6 | HTTP retries: 0
+play_sali... | Steps:   2/5  40% | Samples:   2/  5 | mean: 1.00 | openrouter:  3/ 6 | HTTP retries: 0
+play_sali... | Steps:   3/5  60% | Samples:   3/  5 | mean: 1.00 | openrouter:  2/ 6 | HTTP retries: 0
+play_sali... | Steps:   4/5  80% | Samples:   3/  5 | mean: 1.00 | openrouter:  1/ 6 | HTTP retries: 0
+play_sali... | Steps:   5/5 100% | Samples:   4/  5 | mean: 1.00 | openrouter:  0/ 6 | HTTP retries: 0
+
+---------------------------------------------------------                       
+salience_market (5 samples): openrouter/google/gemini-4-argon                   
+timeout: 300, max_connections: 6, retry_on_error: 2, max_samples: 3, arm:       
+explicit, skin: real, markets: 5, rounds: 20, reasoning_effort: minimal,        
+dataset: (samples)                                                              
+                                                                                
+total time:                       0:03:50                                       
+openrouter/google/gemini-4-argon  160,621 tokens [I: 149,477, CW: 0, CR: 0, O:  
+                                11,144, R: 0]                                   
+salience_scorer                                                                 
+mean             1.000                                                          
+Log:                                                                            
+logs/run4/markets/argon/real-explicit/2026-10-30T03-38-45-00-00_salience-market…
+---------------------------------------------------------                       
+                                                                                

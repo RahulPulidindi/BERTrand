@@ -1,0 +1,1 @@
+wrote 72 scores to logs/run5/monitors/luna-ladder.jsonl

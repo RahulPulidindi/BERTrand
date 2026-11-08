@@ -1,0 +1,6 @@
+OpenRouter balance: $67.88
+OpenRouter balance: $57.92
+done: monitors
+done: law
+done: copies
+OpenRouter balance: $45.91

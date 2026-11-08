@@ -1,0 +1,36 @@
+Monitor from another shell: inspect ctl task list   (inspect ctl --help)
+Running 1 tasks...
+---------------------------------------------------------                       
+replay_decisions (80 samples): openrouter/google/gemini-4-argon                 
+timeout: 300, max_connections: 8, retry_on_error: 2, max_samples: 8, source:    
+..., rounds: 10,18, interventions: baseline,law, branch: main,                  
+samples_per_state: 1, only_holding: True, dataset: (samples)                    
+---------------------------------------------------------                       
+                                                                                
+replay_de... | Steps:   8/80  10% | Samples:   8/ 80 | baseline: 0.00 | openrouter:  8/ 8 | HTTP retries: 0
+replay_de... | Steps:  16/80  20% | Samples:  16/ 80 | baseline: 0.00 | openrouter:  8/ 8 | HTTP retries: 0
+replay_de... | Steps:  24/80  30% | Samples:  24/ 80 | baseline: 0.00 | openrouter:  8/ 8 | HTTP retries: 0
+replay_de... | Steps:  37/80  46% | Samples:  37/ 80 | baseline: 0.00 | openrouter:  8/ 8 | HTTP retries: 0
+replay_de... | Steps:  47/80  58% | Samples:  47/ 80 | baseline: 0.00 | openrouter:  8/ 8 | HTTP retries: 0
+replay_de... | Steps:  56/80  70% | Samples:  56/ 80 | baseline: 0.00 | openrouter:  8/ 8 | HTTP retries: 0
+replay_de... | Steps:  67/80  83% | Samples:  67/ 80 | baseline: 0.00 | openrouter:  8/ 8 | HTTP retries: 0
+replay_de... | Steps:  79/80  98% | Samples:  79/ 80 | baseline: 0.00 | openrouter:  1/ 8 | HTTP retries: 0
+replay_de... | Steps:  80/80 100% | Samples:  80/ 80 | baseline: 0.00 | openrouter:  0/ 8 | HTTP retries: 0
+
+---------------------------------------------------------                       
+replay_decisions (80 samples): openrouter/google/gemini-4-argon                 
+timeout: 300, max_connections: 8, retry_on_error: 2, max_samples: 8, source:    
+..., rounds: 10,18, interventions: baseline,law, branch: main,                  
+samples_per_state: 1, only_holding: True, dataset: (samples)                    
+                                                                                
+total time:                       0:00:42                                       
+openrouter/google/gemini-4-argon  124,754 tokens [I: 117,360, CW: 0, CR: 0, O:  
+                                7,394, R: 0]                                    
+decision_scorer                                                                 
+baseline         0.000                                                          
+law              0.000                                                          
+all              0.000                                                          
+Log:                                                                            
+logs/run5/law/argon/2026-11-08T01-23-48-00-00_replay-decisions_TApT4uxSz224wNWJ…
+---------------------------------------------------------                       
+                                                                                

@@ -1,0 +1,1 @@
+wrote 36 scores to logs/run5/monitors/sonnet-plain_goal.jsonl

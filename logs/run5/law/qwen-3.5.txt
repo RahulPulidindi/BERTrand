@@ -1,0 +1,30 @@
+Monitor from another shell: inspect ctl task list   (inspect ctl --help)
+Running 1 tasks...
+---------------------------------------------------------                       
+replay_decisions (36 samples): openrouter/qwen/qwen3.5-397b-a17b                
+timeout: 300, max_connections: 8, retry_on_error: 2, max_samples: 8, source:    
+..., rounds: 10,18, interventions: baseline,law, branch: main,                  
+samples_per_state: 1, only_holding: True, dataset: (samples)                    
+---------------------------------------------------------                       
+                                                                                
+replay_de... | Steps:   9/36  25% | Samples:   9/ 36 | law: 0.00 | openrouter:  8/ 8 | HTTP retries: 0
+replay_de... | Steps:  24/36  66% | Samples:  24/ 36 | law: 0.00 | openrouter:  8/ 8 | HTTP retries: 0
+replay_de... | Steps:  36/36 100% | Samples:  36/ 36 | law: 0.00 | openrouter:  0/ 8 | HTTP retries: 0
+
+---------------------------------------------------------                       
+replay_decisions (36 samples): openrouter/qwen/qwen3.5-397b-a17b                
+timeout: 300, max_connections: 8, retry_on_error: 2, max_samples: 8, source:    
+..., rounds: 10,18, interventions: baseline,law, branch: main,                  
+samples_per_state: 1, only_holding: True, dataset: (samples)                    
+                                                                                
+total time:                        0:00:14                                      
+openrouter/qwen/qwen3.5-397b-a17b  69,039 tokens [I: 54,980, CW: 0, CR: 9,088,  
+                                 O: 4,971, R: 0]                                
+decision_scorer                                                                 
+baseline         0.000                                                          
+law              0.000                                                          
+all              0.000                                                          
+Log:                                                                            
+logs/run5/law/qwen-3.5/2026-11-08T01-23-48-00-00_replay-decisions_ayW3wGnTW2h23…
+---------------------------------------------------------                       
+                                                                                
